@@ -1,0 +1,27 @@
+{
+  "name": "private-project-uitest",
+  "version": "1.0.0",
+  "description": "Vector의 특성을 활용하여 제작한 Art Of Web입니다.\r 가속도와 속도, 속도와 위치의 관계를 통해 간단한 미디어 아트 제작을 하였습니다.",
+  "main": "app.js",
+  "scripts": {
+    "build": "start webpack --watch ./src/index.js ./build/index.bundle.js",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhygns/private-project-uitest.git"
+  },
+  "author": "donghyeon kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhygns/private-project-uitest/issues"
+  },
+  "homepage": "https://github.com/dhygns/private-project-uitest#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "n3d-threejs": "^76.0.0",
+    "webpack": "^2.6.1"
+  }
+}
